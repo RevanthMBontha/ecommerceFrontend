@@ -5,7 +5,8 @@ import Loading from "../Loading";
 import { useContext } from "react";
 import CartContext from "../../contexts/cartContext";
 
-const createOrderURL = "http://127.0.01:5050/api/v1/user/orders";
+const createOrderURL =
+  "https://ecommercebackend-rt0y.onrender.com/api/v1/user/orders";
 
 const PayPalPaymentDetails = () => {
   const { setCart, address, taxAmount, deliveryFee } = useContext(CartContext);
@@ -63,7 +64,7 @@ const PayPalPaymentDetails = () => {
           onApprove={async (data, actions) => {
             try {
               const response = await axios.post(
-                `http://127.0.01:5050/api/v1/user/orders/${data.orderID}/capture`,
+                `https://ecommercebackend-rt0y.onrender.com/api/v1/user/orders/${data.orderID}/capture`,
                 null,
               );
 

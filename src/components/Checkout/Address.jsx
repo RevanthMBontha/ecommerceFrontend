@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import Button from "../Button";
 import CartContext from "../../contexts/cartContext";
 
-const URL = "http://127.0.01:5050/api/v1/user/addresses";
+const URL = "https://ecommercebackend-rt0y.onrender.com/api/v1/user/addresses";
 
 const Address = ({ inputAddress, showRadio }) => {
   const { address, setAddress } = useContext(CartContext);

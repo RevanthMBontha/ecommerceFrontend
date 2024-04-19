@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { Loading, Address } from "../components";
 
-const URL = "http://127.0.01:5050/api/v1/user/addresses";
+const URL = "https://ecommercebackend-rt0y.onrender.com/api/v1/user/addresses";
 const SavedAddresses = () => {
   const { isPending, isError, data, error } = useQuery({
     queryKey: ["savedAddresses"],

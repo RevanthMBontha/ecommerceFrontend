@@ -11,7 +11,7 @@ import {
 } from "@react-pdf/renderer";
 import { Button, Loading } from "../components";
 
-const baseURL = "http://127.0.01:5050/api/v1/user/orders";
+const baseURL = "https://ecommercebackend-rt0y.onrender.com/api/v1/user/orders";
 
 const InvoicePDF = () => {
   const navigate = useNavigate();

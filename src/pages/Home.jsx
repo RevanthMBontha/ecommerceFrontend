@@ -8,7 +8,8 @@ import { heroImages } from "../utils/pageData";
 import NavLink from "../components/Header/NavLink";
 import { Card, Loading } from "../components";
 
-const URL = "http://127.0.01:5050/api/v1/products/featured";
+const URL =
+  "https://ecommercebackend-rt0y.onrender.com/api/v1/products/featured";
 
 const Home = () => {
   const targetRef = useRef(null);

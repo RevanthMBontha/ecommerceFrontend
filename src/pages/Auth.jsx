@@ -5,8 +5,10 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import Button from "../components/Button";
 
-const loginURL = "http://127.0.01:5050/api/v1/users/login";
-const signupURL = "http://127.0.01:5050/api/v1/users/signup";
+const loginURL =
+  "https://ecommercebackend-rt0y.onrender.com/api/v1/users/login";
+const signupURL =
+  "https://ecommercebackend-rt0y.onrender.com/api/v1/users/signup";
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);

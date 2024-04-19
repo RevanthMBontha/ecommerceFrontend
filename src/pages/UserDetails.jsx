@@ -6,7 +6,7 @@ import { getFormattedDate } from "../utils/helperFunctions";
 
 const UserDetails = () => {
   const navigate = useNavigate();
-  const baseURL = "http://127.0.01:5050/api/v1/users";
+  const baseURL = "https://ecommercebackend-rt0y.onrender.com/api/v1/users";
   const { isPending, isError, data, error } = useQuery({
     queryKey: ["user"],
     queryFn: async () => {

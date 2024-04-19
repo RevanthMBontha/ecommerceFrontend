@@ -5,7 +5,7 @@ import { pageDetails } from "../utils/pageDetails";
 import { Button } from "./../components";
 import { toast } from "react-toastify";
 
-const URL = "http://127.0.01:5050/api/v1/messages";
+const URL = "https://ecommercebackend-rt0y.onrender.com/api/v1/messages";
 
 const Contact = () => {
   const thisPageDetails = pageDetails.find(

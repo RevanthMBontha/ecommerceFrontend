@@ -9,7 +9,7 @@ import { Error } from "../pages";
 import CartContext from "../contexts/cartContext";
 import { toast } from "react-toastify";
 
-const URL = "http://127.0.01:5050/api/v1/products";
+const URL = "https://ecommercebackend-rt0y.onrender.com/api/v1/products";
 
 const SingleProduct = () => {
   const location = useLocation();

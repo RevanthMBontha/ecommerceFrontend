@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { Loading, OrderCard } from "../components";
 
-const URL = "http://127.0.01:5050/api/v1/user/orders";
+const URL = "https://ecommercebackend-rt0y.onrender.com/api/v1/user/orders";
 
 const Orders = () => {
   const { isPending, isError, data } = useQuery({

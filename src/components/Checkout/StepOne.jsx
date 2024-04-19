@@ -4,7 +4,7 @@ import Loading from "../Loading";
 import AddNewAddress from "./AddNewAddress";
 import Address from "./Address";
 
-const URL = "http://127.0.01:5050/api/v1/user/addresses";
+const URL = "https://ecommercebackend-rt0y.onrender.com/api/v1/user/addresses";
 
 const StepOne = () => {
   const token = localStorage.getItem("token");
